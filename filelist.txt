@@ -1,0 +1,14 @@
+.:
+filelist.txt
+openbsd.menu
+openbsd.png
+i386
+x86_64
+
+./i386:
+openbsdmain.menu
+minirootXX.fs
+
+./x86_64:
+openbsdmain.menu
+minirootXX.fs

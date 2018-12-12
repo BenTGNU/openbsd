@@ -1,0 +1,9 @@
+LABEL OPENBSD32
+MENU LABEL ^OpenBSD - i386
+KERNEL boot/isolinux/memdisk
+INITRD er/plugins/openbsd/i386/miniroot64.fs
+APPEND harddisk raw
+TEXT HELP
+				Once booted, follow
+				the instructions
+ENDTEXT
